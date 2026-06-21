@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Sameer Building Materials. </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Al-Sameer Building Materials.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Al-Sameer Building Materials</h1>
+            <p>
+                High-quality construction tools and equipment
+                trusted by professionals and contractors.
+            </p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+   <section class="services" id="services">
+    <h2>Our Services</h2>
+
+    <div class="carousel">
+
+        <div class="carousel-track">
+
+            <div class="card">
+               
+                <h3>Power Tools</h3>
+                <img src="images/img2.png"
+                 class="card-img">
+                <p>Drills, grinders, and cutting tools for professional work.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/img3.png"
+                 class="card-img">
+                <h3>Safety Equipment</h3>
+                <p>Protective gear for construction sites and workers safety.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/img4.png"
+                 class="card-img">
+                <h3>Construction Supplies</h3>
+                <p>High quality materials for building projects.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dots">
+    <span class="dot active" onclick="goToSlide(0)"></span>
+    <span class="dot" onclick="goToSlide(1)"></span>
+    <span class="dot" onclick="goToSlide(2)"></span>
+</div>
+</section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Al-Sameer Building Materials </h2>
+            <p>
+               Al-Sameer Building Materials Tools provides trusted construction
+                equipment and supplies for builders,
+                contractors, and engineering teams.
+                We focus on quality, durability,
+                and customer satisfaction.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Your Message" rows="5"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Al-Sameer Building Materials.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+</body>
+</html>
